@@ -1,0 +1,5 @@
+enhancement: [ 'feature/*', 'feat/*' ]
+bug: [ 'fix/*', 'bug/*' ]
+chore: chore/*
+test: test/*
+dependencies: [ 'dependabot/*', 'dependabot-*' ]
