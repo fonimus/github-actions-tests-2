@@ -1,0 +1,10 @@
+name: Pull Request Labeler
+
+on:
+  pull_request:
+    types: [ opened ]
+
+jobs:
+  pr-labeler:
+    name: Pull Request Labeler
+    uses: fonimus/github-actions-tests/.github/workflows/dump.yml@main
