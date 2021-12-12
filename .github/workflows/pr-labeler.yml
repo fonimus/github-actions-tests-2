@@ -7,4 +7,4 @@ on:
 jobs:
   pr-labeler:
     name: Pull Request Labeler
-    uses: fonimus/github-actions-tests/.github/workflows/dump.yml@main
+    uses: fonimus/github-actions-tests/.github/workflows/pr-labeler.yml@main
